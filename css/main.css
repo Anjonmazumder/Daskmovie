@@ -1,0 +1,52 @@
+.container{
+    background: #C2C2A3;
+    min-height: 600px;
+}
+
+#slider1_container{
+    top: 50px;
+}
+
+.menu{
+    position: relative;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    z-index: 99999;
+}
+
+.menu li{
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.menu li a{
+    text-decoration: underline;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    width: 135px;
+    background-color: #07B3D3;
+    color: #fff;
+    padding: 0;
+    border-right: 1px solid #B2FFB2;
+}
+
+.item:hover > a{
+    background-color: #D6EBFF;
+    color: #07B3D3;
+}
+
+.item:hover ul{
+    display: block;
+}
+.mytable{
+    position: relative;
+    top: 50px;
+}
